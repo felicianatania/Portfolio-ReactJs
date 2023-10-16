@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Palanquin:wght@100&family=Poppins:wght@300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth font-Gabarito;
+}
+body {
+  /* @apply box-border bg-gray-900 text-gray-100; */
+  @apply box-border bg-primarylight text-gray;
+}
+.btn-primary {
+  @apply via-primary2 mx-auto gap-2 rounded-full bg-gradient-to-r from-primary to-primarydark py-3 px-6 font-semibold text-white hover:bg-gradient-to-br focus:ring-4 focus:ring-primarylight dark:focus:ring-primarydark md:mx-0 transition ease-in-out delay-75 hover:-translate-y-1 hover:scale-110;
+  /* @apply bg-primarydark to-primary mx-auto flex items-center gap-2 rounded-full from-cyan-400 py-3 px-6 font-semibold text-white hover:bg-gradient-to-r md:mx-0; */
+}
+
+.aboutImg::after {
+  @apply absolute left-0 top-0 -z-10 h-full w-full rotate-12 rounded-xl bg-primarydark content-[''];
+}
+
+.swiper-pagination-bullet {
+  @apply bg-white;
+}
+
+input,
+textarea {
+  @apply rounded-lg bg-primary p-3 outline-none;
+}
+::placeholder {
+  @apply text-lg;
+}
+
+::selection {
+  @apply bg-primarydark;
+}
