@@ -85,7 +85,7 @@ const Projectt = () => {
         <p className="mt-3 text-lg text-graylight">My works</p>
       </div>
       <br />
-      <div className="realtive mx-32 grid grid-cols-1 gap-8 px-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+      <div className="realtive mx-8 lg:mx-32 grid grid-cols-1 gap-8 px-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
         {projects.map((project_info, i) => (
           <div key={i} className="mb-4">
             <div className="h-fit rounded-xl bg-primary p-4 hover:bg-primary2 transition hover:duration-150 ease-in-out hover:text-white">
