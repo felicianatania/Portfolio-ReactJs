@@ -71,7 +71,7 @@ const Projectt = () => {
     {
       img: ml,
       name: "Machine Learning",
-      github_link: "https://colab.research.google.com/drive/1bjS0tq1U87r7QL9VwuYJBmvaBx5KqNsT?usp=sharing",
+      github_link: "https://drive.google.com/drive/folders/1A-9Q6XH2UIaprgven7Zf_p-VYy0IoFTi?usp=share_link",
       desc: "Python",
       type: "Colab",
     },
