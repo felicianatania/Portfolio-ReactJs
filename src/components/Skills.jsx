@@ -3,6 +3,36 @@ import React from "react";
 const Skills = () => {
   const skills = [
     {
+      logo: "https://www.vectorlogo.zone/logos/springio/springio-icon.svg",
+    },
+    {
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    },
+    {
+      logo: "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg",
+    },
+    {
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg",
+    },
+    {
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    },
+    {
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+    },
+    {
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg",
+    },
+    {
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
+    },
+    {
+      logo: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg",
+    },
+    {
+      logo: "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg",
+    },
+    {
       logo: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
     },
     {
@@ -24,13 +54,10 @@ const Skills = () => {
       logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
     },
     {
-      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-    },
-    {
       logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
     },
     {
-      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg",
     },
     {
       logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
@@ -42,16 +69,10 @@ const Skills = () => {
       logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
     },
     {
-      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
-    },
-    {
       logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg",
     },
     {
       logo: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
-    },
-    {
-      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg",
     },
   ];
   return (

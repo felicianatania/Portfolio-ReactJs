@@ -8,12 +8,19 @@ import vorgreens from "../assets/images/vorgreens.png";
 import jefmental from "../assets/images/jefmental.png";
 import credwise from "../assets/images/CredWise.png";
 import bajo from "../assets/images/bajo.png";
+import flockid from "../assets/images/FlockID.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 
 const Project = () => {
   const projects = [
+    {
+      img: flockid,
+      name: "FLOCKID",
+      github_link: "https://github.com/HFJ-thesis/farmit-fe",
+      desc: "Next.js, Node.js, CSS",
+    },
     {
       img: hackathon,
       name: "Hackathon",

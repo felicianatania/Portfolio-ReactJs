@@ -8,9 +8,17 @@ import jefmental from "../assets/images/jefmental.png";
 import credwise from "../assets/images/CredWise.png";
 import bajo from "../assets/images/bajo.png";
 import ml from "../assets/images/ml.png";
+import flockid from "../assets/images/FlockID.png";
 
 const Projectt = () => {
   const projects = [
+    {
+      img: flockid,
+      name: "FLOCKID",
+      github_link: "https://github.com/HFJ-thesis/farmit-fe",
+      desc: "Next.js, Node.js, CSS",
+      type: "Github",
+    },
     {
       img: hackathon,
       name: "Hackathon",
